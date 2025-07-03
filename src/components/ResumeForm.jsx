@@ -10,46 +10,107 @@ export default function ResumeForm({ formData, setFormData }) {
 
   return (
     <form>
-      <div>
-        <label>姓名:</label>
-        {/* 让value输入框显示某个状态值，onchange让你能修改这个状态 */}
-        <input name="name" value={formData.name} onChange={handleChange} />
-        <hr />
+      <div style={{ marginLeft: '50px', marginTop: '50px' }}>
+        <div className="mb-3">
+          <label className="form-label">姓名:</label>
+          <input
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
 
-        <label>邮箱:</label>
-        <input name="email" value={formData.email} onChange={handleChange} />
-        <hr />
+        <div className="mb-3">
+          <label className="form-label">邮箱:</label>
+          <input
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
 
-        <label>教育经历:</label>
-        <input name="education" value={formData.education} onChange={handleChange} />
-        <hr />
+        <div className="mb-3">
+          <label className="form-label">教育经历:</label>
+          <input
+            name="education"
+            value={formData.education}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
 
-        <label>专业技能:</label>
-        <input name="skill" value={formData.skill} onChange={handleChange} />
-        <hr />
+        <div className="mb-3">
+          <label className="form-label">专业技能:</label>
+          <input
+            name="skill"
+            value={formData.skill}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
 
-        <label>校内经历:</label>
-        <input name="campusExperience" value={formData.campusexperience} onChange={handleChange} />
-        <hr />
+        <div className="mb-3">
+          <label className="form-label">校内经历:</label>
+          <input
+            name="campusExperience"
+            value={formData.campusExperience}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
 
-        <label>项目经历:</label>
-        <input name="projects" value={formData.projects} onChange={handleChange} />
-        <hr />
+        <div className="mb-3">
+          <label className="form-label">项目经历:</label>
+          <input
+            name="projects"
+            value={formData.projects}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
 
-        <label>社会实践:</label>
-        <input name="socialPractice" value={formData.socialPractice} onChange={handleChange} />
-        <hr />
+        <div className="mb-3">
+          <label className="form-label">社会实践:</label>
+          <input
+            name="socialPractice"
+            value={formData.socialPractice}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
 
-        <label>实习经历:</label>
-        <input name="internships" value={formData.internships} onChange={handleChange} />
-        <hr />
+        <div className="mb-3">
+          <label className="form-label">实习经历:</label>
+          <input
+            name="internships"
+            value={formData.internships}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
 
-        <label>奖项荣誉:</label>
-        <input name="awards" value={formData.awards} onChange={handleChange} />
-        <hr />
+        <div className="mb-3">
+          <label className="form-label">奖项荣誉:</label>
+          <input
+            name="awards"
+            value={formData.awards}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
 
-        <label>自我评价:</label>
-        <input name="selfIntro" value={formData.selfIntro} onChange={handleChange} />
+        <div className="mb-3">
+          <label className="form-label">自我评价:</label>
+          <input
+            name="selfIntro"
+            value={formData.selfIntro}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
+
       </div>
     </form>
   )

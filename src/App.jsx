@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import ResumeForm from './components/ResumeForm'
 import ResumePreview from './components/ResumePreview'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   // 浏览器的内置存储空间，getitem从存储中取出名为"resumeData"的东西，
